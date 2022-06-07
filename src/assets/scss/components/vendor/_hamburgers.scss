@@ -36,13 +36,13 @@
 .navbar-inverse .hamburger-inner,
 .navbar-inverse .hamburger-inner:after,
 .navbar-inverse .hamburger-inner:before {
-    background-color: $navbar-dark-toggle-color;
+    background-color: transparent;
 }
 
 .navbar-inverse .hamburger:hover:not(.is-active) .hamburger-inner,
 .navbar-inverse .hamburger:hover:not(.is-active) .hamburger-inner:after,
 .navbar-inverse .hamburger:hover:not(.is-active) .hamburger-inner:before {
-    background-color: $navbar-dark-toggle-color-hover;
+    background-color: transparent;
 }
 
 .navbar-inverse .hamburger.is-active .hamburger-inner:after,

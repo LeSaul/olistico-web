@@ -74,17 +74,18 @@ body {
   margin: 0;
 }
 
-.navbar-nav.dropdown{
-	background-color: transparent !important;
+.navbar-nav.dropdown {
+  background-color: transparent !important;
 
-	.dropdown-menu{
-		background-color: transparent !important;
-		.list-group{
-			.list-group-item{
-				background-color: transparent !important;
-			}
-		}
-	}
+  .dropdown-menu {
+    background-color: transparent !important;
+
+    .list-group {
+      .list-group-item {
+        background-color: transparent !important;
+      }
+    }
+  }
 }
 
 .body-wrap {
@@ -100,18 +101,48 @@ body {
     align-items: center;
     justify-content: center;
     height: 100%;
-	position: relative;
+    position: relative;
   }
 }
 
-#hero-left .container, #hero-right .container{
-	visibility: hidden;
-	opacity: 0;
-	transition: visibility 0s linear 300ms, opacity 300ms;
+#hero-left .container,
+#hero-right .container {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s linear 300ms, opacity 300ms;
 }
 
-#hero-left:hover .container, #hero-right:hover .container{
-	visibility: visible;
-	opacity: 1;
-	transition: visibility 0s linear 0s, opacity 300ms;
+#hero-left:hover .container,
+#hero-right:hover .container {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s linear 0s, opacity 300ms;
+}
+
+#hero-top-mobile {
+  background-image: url('https://www.thegreensideofpink.com/wp-content/uploads/2021/05/skincare-routine.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    position: relative;
+  }
+}
+
+#hero-bottom-mobile {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVNX4DbAyaTXkdbUaEQFSiwNVDXI3bQcOkSgi-7mcUEEL2HbX5t-xk0yDAblRbGKQ3LkM&usqp=CAU');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    position: relative;
+  }
 }
